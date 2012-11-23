@@ -4,7 +4,7 @@ class collectdweb::install{
     source  => "puppet:///modules/collectdweb",
     owner   => root,
     group   => root,
-    mode    => 0644,
+    mode    => 0555,
     purge   => true,
     recurse => true,
     force   => true,
